@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>故宫博物馆</title>
+    <!-- 一定要先link清除默认样式，再link首页样式 -->
+    <!--基础样式与首页样式-->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!--轮播图样式-->
+    <link rel="stylesheet" href="./css/slide.css">
+
+    <!--放大图标的样式-->
+    <link rel="stylesheet" href="./css/zoom_img.css">
+
+    <!--设置图标-->
+    <link rel="icon" href="uploads/favicon.ico" type="image/x-icon">
+</head>
+
+
+<body>
+
+    <!-- 网页制作思路 先整理再局部 从外到内 从上到下 从左到右 -->
+    <!-- 头部栏 -->
+    <div class="header">
+        <div class="wrapper">
+            <!-- logo栏 -->
+            <div class="logo">
+                <h1>
+                    <a href="#">
+                        logo
+                    </a>
+                </h1>
+            </div>
+            <!-- 导航栏 -->
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html" class="selected">首页</a></li>
+                    <li><a href="./pages/exhibition.html">展览</a></li>
+                    <li><a href="./pages/about.html">关于</a></li>
+                </ul>
+            </div>
+
+
+
+
+            <!-- 搜索栏 -->
+            <div class="search">
+                <input type="text" placeholder="请输入内容...">
+                <a
+                    href="./pages/building.html"></a>
+
+            </div>
+
+
+            <!-- 用户 -->
+            <div class="user">
+                <a
+                    href="./pages/building.html">
+                    <img src="./uploads/user.png">
+                    <span>访客</span>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- banner区域 -->
+    <div class="banner">
+        <div class="wrapper">
+
+            <div class="left">
+                <ul>
+                    <li><a href="./pages/china.html" >陶瓷</a></li>
+                    <li><a href="./pages/arts.html" >绘画</a></li>
+                    <li><a href="./pages/spellbook.html" >法书</a></li>
+                    <li><a href="./pages/engraved.html" >铭刻</a></li>
+                    <li><a href="./pages/bronze.html" >青铜器</a></li>
+                    <li><a href="./pages/enamel.html" >珐琅</a></li>
+                    <li><a href="./pages/lacquerware.html" >漆器</a></li>
+                    <li><a href="./pages/jade.html" >玉石器</a></li>
+                    <li><a href="./pages/gold.html" >金银锡器</a></li>
+                </ul>
+            </div>
+
+            <!-- 轮播图-->
+            <div class="carousel right" id="box">
+                <div class="slides">
+                    <div class="slide"> <img class="zoom-image" src="images/廷壁生辉.jpg" alt="Image 1"> </div>
+                    <div class="slide"> <img class="zoom-image" src="images/瓷器jpg.jpg" alt="Image 2"> </div>
+                    <div class="slide"> <img class="zoom-image" src="images/明宣宗行乐图.jpg" alt="Image 3"> </div>
+                </div>
+                <button class="prev">‹</button>
+                <button class="next">›</button>
+            </div>
+            <script src="./js/slide.js"></script>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <!--建筑展览区域-->
+    <div class="architecture wrapper">
+        <div class="hd">
+            <h3>建筑</h3>
+            <a href="#" class="more">查看全部</a>
+        </div>
+        <div class="bd">
+            <ul>
+                <li>
+                    <div class="pic"><img class="zoom-image" src="./images/建筑/九龙壁.jpg" alt=""></div>
+                    <div class="text">
+                        <h4>九龙壁</h4>
+                        <p>时代：清乾隆</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic"><img class="zoom-image" src="./images/建筑/乾清宫.jpg" alt=""></div>
+                    <div class="text">
+                        <h4>乾清宫</h4>
+                        <p>时代：明永乐</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic"><img class="zoom-image" src="./images/建筑/养心殿.jpg" alt=""></div>
+                    <div class="text">
+                        <h4>养心殿</h4>
+                        <p>时代：明嘉靖</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic"><img class="zoom-image" src="./images/建筑/奉先殿.jpg" alt=""></div>
+                    <div class="text">
+                        <h4>奉先殿</h4>
+                        <p>时代：清顺治</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic"><img class="zoom-image" src="./images/建筑/御花园.jpg" alt=""></div>
+                    <div class="text">
+                        <h4>御花园</h4>
+                        <p>时代：明永乐</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic"><img class="zoom-image" src="./images/建筑/文渊阁.jpg" alt=""></div>
+                    <div class="text">
+                        <h4>文渊阁</h4>
+                        <p>时代：清乾隆</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic"><img class="zoom-image" src="./images/建筑/澄瑞亭.jpg" alt=""></div>
+                    <div class="text">
+                        <h4>澄瑞亭</h4>
+                        <p>时代：明万历</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic"><img class="zoom-image" src="./images/建筑/皇极殿.jpg" alt=""></div>
+                    <div class="text">
+                        <h4>皇极殿</h4>
+                        <p>时代：清康熙</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic"><img class="zoom-image" src="./images/建筑/绛雪轩.jpg" alt=""></div>
+                    <div class="text">
+                        <h4>绛雪轩</h4>
+                        <p>时代：明永乐</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic"><img class="zoom-image" src="./images/建筑/钟粹宫.jpg" alt=""></div>
+                    <div class="text">
+                        <h4>钟粹宫</h4>
+                        <p>时代：明永乐</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+        <!-- 底部 -->
+        <div class="footer">
+            <hr>
+            <div class="wrapper">
+                <div class="left">
+                    <p>地址：河北省石家庄市裕翔街26号<br>
+                        © 2024年CPY Inc.保留所有权利。
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+</body>
+
+</html>

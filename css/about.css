@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.summary{
+	width: 100%;
+	text-align: center;
+	margin: 60px 0;
+}
+.summary h1{
+	
+	font-size: 40px;
+	line-height: 35px;
+	letter-spacing: 2px;
+	margin: 20px 0;
+	vertical-align: middle;
+	display: flex;
+    align-items: center; /* 垂直居中 */
+	justify-content: center; /* 水平居中（可选） */	
+}
+
+.summary p{
+	font-size: 10px;
+	letter-spacing: 2px;
+	margin: 5px 0 5px 0;
+}
+.about_container{
+	height: 500px;
+	margin-left: 10px;
+	display: flex;
+	justify-content: space-around;  
+	}
+
+.about_left{
+	width: 360px;
+	height: 450px;
+    color: #000;
+    font-size: 30px;
+
+	background-image: url(../images/关于/云纹6.jpg);
+}
+.about_right{
+    display: flex;
+	width: 960px;
+	height: 450px;
+	background-image: url(../images/关于/云纹5.jpg);
+}
+
+/*院长的照片*/
+.wang_pic{
+	margin: 30px;
+}
+#position{
+    font-size: 30px;
+}
+
+.intr{
+    font-size: 20px;
+}
+.about_container p{
+	letter-spacing: 2px;
+	margin: 20px 0 5px 0;
+	margin-left: 20px;
+    color: #000;
+}
+
+
+
+
+
+	

@@ -1,0 +1,25 @@
+/* 标题 雕塑*/
+.sculpture{
+    margin-left: 650px;
+    margin-left: 20ox;
+    font-family: 'Times New Roman', serif; /* 经典的衬线字体 */
+    font-size: 50px; /* 字体大小 */
+    color: #4a3c2a; /* 深棕色字体颜色 */
+    text-shadow: 1px 1px 2px #6d4c41; /* 轻微的阴影效果 */
+    /* border-bottom: 2px solid #4a3c2a; */
+    padding-bottom: 5px; /* 底部内边距 */
+    margin-bottom: 15px; /* 底部外边距 */
+    letter-spacing: 1px; /* 字符间距 */
+    
+}
+
+
+
+/* 图片 排列*/
+
+.pic_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+

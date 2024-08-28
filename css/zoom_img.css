@@ -1,0 +1,12 @@
+/*这个样式是缩放图片的样式*/
+
+.zoom-image{
+    display: block; /* 去除图片底部的空白 */
+    transition: transform 0.3s ease; /* 添加过渡效果 */
+    width: 300px; /* 设置图片的宽度 */
+    height: auto; /* 高度自适应 */
+}
+
+.zoom-image:hover {
+    transform: scale(1.2); /* 悬浮时放大1.2倍 */
+  }

@@ -1,0 +1,357 @@
+/* 首页样式 */
+/* 版心 */
+
+/* 头部区域 */
+
+
+.header .wrapper
+{
+    padding: 20px;
+    /* background-color: #fff; */
+
+    display: flex;
+
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/* logo */
+.logo a
+{
+    display: block;
+    width: 195px;
+    height: 40px;
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    font-size: 0;
+}
+
+
+/* 导航 */
+.nav
+{
+    margin-left: 102px;
+}
+
+.nav ul
+{
+    display: flex;
+}
+
+.nav li
+{
+    margin-right: 24px;
+    /* margin-left: 32px; */
+
+}
+
+.nav li a
+{
+    display: block;
+    padding: 6px 8px;
+    font-size: 19px;
+    color: #333;
+    line-height: 27px;
+
+}
+
+/* 并集选择器 ，选中的时候底部出现蓝条*/
+.nav .selected,
+.nav a:hover
+{
+    border-bottom: 2px solid blue;
+}
+
+/* 搜索 */
+.search
+{
+    display: flex;
+    margin-left: 64px;
+    padding-left: 19px;
+    padding-right: 12px;
+
+    width: 300px;
+    height: 40px;
+    background-color: #f3f5f7;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.search input
+{
+
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    font-size: 14px;
+    flex: 1
+}
+
+.search input::placeholder
+{
+    font-size: 14px;
+    color: #999;
+}
+
+.search a
+{
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/search.png);
+}
+
+/* 用户 */
+.user
+{
+    margin-left: 32px;
+    margin-top: 4px;
+}
+
+.user img
+{
+    margin-right: 7px;
+    /* 行内块居中 */
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.user span
+{
+    font-size: 16px;
+    color: #666;
+}
+
+/* banner区域 */
+.banner
+{
+    height: 420px;
+    background-color: #0092cb;
+}
+
+.banner .wrapper
+{
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+    /*调整背景图像大小*/
+    background-image: url(../images/太和门广场.jpg);
+    background-size: cover;
+    /* 使背景图像覆盖整个 div */
+    background-position: center;
+    /* 居中显示背景图像 */
+    background-repeat: no-repeat;
+    /* 防止背景图像重复 */
+
+}
+
+
+
+
+.banner .left
+{
+    padding: 3px 20px;
+    margin: 0 0 40px 0px;
+    width: 200px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.42);
+
+}
+
+.banner .left a
+{
+    display: block;
+    height: 46px;
+    background-image: url(../images/right.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    line-height: 46px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.banner .left a:hover
+{
+    background-image: url(../images/right-hover.png);
+    color: #00a4af;
+}
+
+
+/* 建筑 */
+.architecture
+{
+    margin: 18px;
+}
+
+/* 标题是公共类，谁想调用都可以 */
+.hd
+{
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hd h3
+{
+    font-size: 21px;
+    font-weight: 400;
+
+}
+
+.hd .more
+{
+    padding-right: 20px;
+    font-size: 14px;
+    color: #999;
+    background: url(../images/more.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* 建筑 内容*/
+.bd ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.bd ul li
+{
+    margin-bottom: 20px;
+    width: 228px;
+    height: 271px;
+    /* background-color: pink */
+}
+
+.bd ul li .pic
+{
+    height: 156px;
+}
+
+.bd ul li .pic img
+{
+    width: 200px;
+    height: 130px;
+
+}
+
+.bd ul li .text
+{
+    padding: 5px;
+    height: 115px;
+    background-color: #fff;
+
+}
+
+.bd ul .text h4
+{
+    margin-top: 8px;
+    margin-bottom: 3px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.bd li .text p
+{
+    font-size: 14px;
+    line-height: 20px;
+    color: #999
+}
+
+.bd ul .text p span
+{
+    color: #fa6400
+}
+
+.bd ul .text p i
+{
+    font-style: normal;
+}
+
+/* 建筑 */
+.hd ul
+{
+    display: flex;
+}
+
+.hd ul li
+{
+    margin-right: 60px;
+    font-size: 16px;
+}
+
+.hd ul li .active
+{
+    color: #00a4ff;
+}
+
+
+
+.bd .right img
+{
+    width: 930px;
+    height: 290px;
+    padding-bottom: 20px;
+}
+
+.bd
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bd .left
+{
+    width: 228px;
+
+}
+
+.bd .right
+{
+    width: 957px;
+}
+
+.bd .right img
+{
+    margin-bottom: 10px;
+}
+
+.bd .list ul
+{
+    width: 1350px;
+}
+
+
+/* 底部版权栏 */
+.footer
+{
+    margin-top: 20px;
+    height: 273px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.footer .wrapper .left{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer .wrapper .left p
+{
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #666;
+   
+}
+
+

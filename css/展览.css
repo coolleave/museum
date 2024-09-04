@@ -1,0 +1,16 @@
+.dp_time{
+    font-size: 20px;
+    color: #666;
+} 
+.dp_pic{
+    margin-right: 10px;
+}
+.dp_time_contanier{
+    display: flex;
+    margin: 20px;
+}
+.dp_content{
+    font-size: 22px;
+    text-indent: 2em;
+}
+
